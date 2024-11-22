@@ -1,0 +1,111 @@
+body {
+    background-color: #F3F3E0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    border: 5px bold;
+    background-color: #133E87;
+    padding: 5px 10px;
+    border-radius: 20%;
+    color: #CBDCEB;
+}
+
+a:hover {
+    color: red;
+}
+
+.clrfix {
+    clear: both;
+}
+
+#main-header {
+    text-align: center;
+    background-color: #F3F3E0;
+    width: 80%;
+    margin: auto;
+}
+.title h1 {
+    margin: 10px 0 0px;
+    padding: 15px 0;
+    color: #608BC1;
+    font-size: 3rem;
+    font-style: oblique;
+}
+.title {
+    margin: 0;
+}
+
+
+#nav-bar {
+    padding-bottom: 2px;
+}
+
+#nav-bar ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+
+}
+
+#nav-bar li {
+    display: inline;
+}
+
+.container {
+    width: 80%;
+    color: #133E87;
+    text-align: center;
+    margin: auto;
+
+
+}
+.showcase {
+    background-image: url('./images/nature.avif');
+        height: 300px;
+        border-radius: 1%;
+        
+}
+.showcase h2 {
+    padding: 150px 0 0;
+    font-size: 1.9rem;
+    color:#133E87;
+    font-weight: bold;
+}
+
+.firstP {
+    border: 2px dotted #608BC1;
+    margin: 10px auto;
+    padding: 20px;
+}
+.secondP {
+    border: 2px solid #608BC1;
+    float: left;
+    width: 70%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    
+}
+
+aside {
+    float: right;
+    width: 30%;
+    border: 2px dotted #608BC1;
+    padding: 0 10px 25px;
+    border-left: none;
+    box-sizing: border-box;
+
+}
+
+footer {
+    background-color: #133E87;
+    color: #F3F3E0;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 10px;
+    width: 80%;
+    margin: 10px auto;
+}
